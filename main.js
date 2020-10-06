@@ -23,7 +23,7 @@ const { getIpv4MappedIpv6Address } = require(path.join(__dirname, 'ipv6.js'));
 */
 const IPCIDR = require('ip-cidr');
 
-class IpAddressLAB {
+class IpAddressLab {
   constructor() {
     // IAP's global log object is used to output errors, warnings, and other
     // information to the console, IAP's log files, or a Syslog server.
@@ -91,4 +91,4 @@ return callback(ipAddress, callbackError);
 
 }
 
-module.exports = new IpAddressLAB;
+module.exports = new IpAddressLab;

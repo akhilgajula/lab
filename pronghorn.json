@@ -1,9 +1,9 @@
 {
   "id": "@acme/lab",
   "type": "Application",
-  "title": "ip-address lab",
-  "displayName": "IP Address - LAB",
-  "export": "IpAddressLAB",
+  "title": "ip-address-lab",
+  "displayName": "IP Address Lab",
+  "export": "IpAddressLab",
   "summary": "The IP Address application performs operations on IP addresses.",
   "src": "main.js",
   "encrypted": false,
